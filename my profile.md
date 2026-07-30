@@ -1,0 +1,213 @@
+👋 Hi, I'm Niharika Saini
+
+💻 CSE Student | DSA Enthusiast | Aspiring Software Engineer
+
+Welcome to my GitHub! I'm a Computer Science Engineering student passionate about Data Structures & Algorithms, problem solving, and software development.
+
+I enjoy learning new technologies, solving coding problems, and building projects that improve my practical development skills.
+
+🚀 About Me
+
+🎓 Computer Science Engineering Student
+
+💻 Practicing Data Structures & Algorithms
+
+🧩 Solving coding problems primarily in C++
+
+🌱 Learning JavaScript, Node.js & Web Development
+
+🔍 Interested in Software Development & Problem Solving
+
+📚 Improving my programming fundamentals through consistent practice
+
+🎯 Preparing for software engineering opportunities
+
+🛠️ Tech Stack
+
+👨‍💻 Programming Languages
+
+<p>
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+</p>
+
+🌐 Web Development
+
+<p>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js">
+</p>
+
+🔧 Tools
+
+<p>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code">
+</p>
+
+🧠 Data Structures & Algorithms
+
+Currently working on:
+
+Arrays
+
+Strings
+
+Searching & Sorting
+
+Binary Search
+
+Two Pointers
+
+Recursion
+
+Linked Lists
+
+Stack & Queue
+
+Trees
+
+Dynamic Programming
+
+STL
+
+Problem Solving
+
+🏆 Coding Profiles
+
+Platform
+
+Username
+
+Profile
+
+🟠 LeetCode
+
+Niharika22_8
+
+View Profile
+
+🟢 GeeksforGeeks
+
+niharikaskd7h
+
+View Profile
+
+👨‍🍳 CodeChef
+
+niharika22_8
+
+View Profile
+
+🐙 GitHub
+
+ni8574
+
+View Profile
+
+📂 What You'll Find Here
+
+📁 DSA
+ ├── Arrays
+ ├── Strings
+ ├── Searching
+ ├── Sorting
+ ├── Recursion
+ ├── Linked List
+ ├── Stack
+ ├── Queue
+ ├── Trees
+ └── Dynamic Programming
+
+📁 C++
+ ├── Basics
+ ├── OOP
+ └── STL
+
+📁 JavaScript
+ ├── Fundamentals
+ ├── DOM
+ ├── Events
+ ├── Promises
+ ├── Async/Await
+ └── Node.js
+
+📁 Projects
+ └── Web Development Projects
+
+🎯 Goals
+
+Master Core Data Structures & Algorithms
+
+Solve 100+ coding problems
+
+Improve C++ and STL
+
+Learn Advanced DSA
+
+Build real-world projects
+
+Strengthen JavaScript & Backend skills
+
+Improve problem-solving and interview skills
+
+Contribute to Open Source
+
+🌱 Currently Learning
+
+C++ → DSA → JavaScript → Web Development → Node.js → Backend Development
+
+My current focus is on becoming stronger at both problem solving and building practical applications.
+
+💡 My Learning Philosophy
+
+Learn → Practice → Build → Improve → Repeat
+
+Consistency and continuous learning are the foundation of my development journey.
+
+📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=ni8574&show_icons=true&theme=tokyonight&hide_border=true" alt="Niharika's GitHub Stats">
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ni8574&theme=tokyonight&hide_border=true" alt="GitHub Streak">
+</p>
+
+📌 Featured Focus
+
+🔹 C++
+
+Programming fundamentals, OOP, STL, and problem-solving.
+
+🔹 DSA
+
+Regular coding practice to improve algorithmic thinking and technical interview preparation.
+
+🔹 JavaScript
+
+Learning fundamentals, DOM manipulation, events, promises, asynchronous programming, and Node.js.
+
+🔹 Web Development
+
+Building projects while learning frontend and backend technologies.
+
+🤝 Let's Connect
+
+<p align="center">
+  <a href="https://github.com/ni8574">GitHub</a> •
+  <a href="https://leetcode.com/u/Niharika22_8/">LeetCode</a> •
+  <a href="https://www.geeksforgeeks.org/profile/niharikaskd7h">GeeksforGeeks</a> •
+  <a href="https://www.codechef.com/users/niharika22_8">CodeChef</a>
+</p>
+
+⭐ Thanks for Visiting!
+
+Thanks for stopping by my GitHub profile!
+
+If you find any of my repositories useful, feel free to ⭐ the repository.
+
+🚀 Keep Learning. Keep Coding. Keep Building.
