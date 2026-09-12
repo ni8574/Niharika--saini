@@ -1,0 +1,111 @@
+
+class Solution {
+public:
+    vector<int> better(vector<int> a, vector<int> b) {
+        if (a.empty()) return b;
+        if (b.empty()) return a;
+
+        sort(a.begin(), a.end());
+        sort(b.begin(), b.end());
+
+        return lexicographical_compare(b.begin(), b.end(), a.begin(), a.end()) ? b : a;
+    }
+
+    vector<int> maximumScore(vector<vector<int>>& intervals) {
+        int n = intervals.size();
+
+        vector<array<long long, 3>> v(n);
+
+        for (int i = 0; i < n; i++) {
+            v[i] = {intervals[i][0], intervals[i][1], intervals[i][2]};
+        }
+
+        sort(v.begin(), v.end());
+
+        vector<int> starts(n);
+
+        for (int i = 0; i < n; i++) {
+            starts[i] = v[i][0];
+        }
+
+        vector<vector<long long>> dp(n + 1, vector<long long>(5, 0));
+        vector<vector<vector<int>>> path(n + 1, vector<vector<int>>(5));
+
+        for (int i = n - 1; i >= 0; i--) {
+            for (int k = 1; k <= 4; k++) {
+
+                long long skipScore = dp[i + 1][k];
+                vector<int> skipPath = path[i + 1][k];
+
+                int next = upper_bound(starts.begin(), starts.end(), (int)v[i][1]) - starts.begin();
+
+                long long takeScore = v[i][2] + dp[next][k - 1];
+                vector<int> takePath = path[next][k - 1];
+
+                takePath.push_back((int)v[i][2]);
+
+                vector<int> originalTake = path[next][k - 1];
+                originalTake.push_back((int)v[i][2]);
+
+                if (takeScore > skipScore) {
+                    dp[i][k] = takeScore;
+                    path[i][k] = takePath;
+                }
+                else if (takeScore < skipScore) {
+                    dp[i][k] = skipScore;
+                    path[i][k] = skipPath;
+                }
+                else {
+                    dp[i][k] = takeScore;
+                    path[i][k] = better(takePath, skipPath);
+                }
+            }
+        }
+
+        vector<int> ans;
+
+        // Reconstruct using a simpler DP below
+        vector<vector<long long>> score(n + 1, vector<long long>(5, 0));
+
+        for (int i = n - 1; i >= 0; i--) {
+            for (int k = 1; k <= 4; k++) {
+                int next = upper_bound(
+                    starts.begin(),
+                    starts.end(),
+                    (int)v[i][1]
+                ) - starts.begin();
+
+                score[i][k] = max(
+                    score[i + 1][k],
+                    v[i][2] + score[next][k - 1]
+                );
+            }
+        }
+
+        int i = 0, k = 4;
+
+        while (i < n && k > 0) {
+            int next = upper_bound(
+                starts.begin(),
+                starts.end(),
+                (int)v[i][1]
+            ) - starts.begin();
+
+            long long take = v[i][2] + score[next][k - 1];
+            long long skip = score[i + 1][k];
+
+            if (take > skip) {
+                ans.push_back((int)v[i][2]);
+                i = next;
+                k--;
+            }
+            else {
+                i++;
+            }
+        }
+
+        sort(ans.begin(), ans.end());
+        return ans;
+    }
+};
+
